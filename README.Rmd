@@ -13,19 +13,18 @@ knitr::opts_chunk$set(
 ```
 
 <p align="left">
-<strong><a href="README.md">Inicio</a></strong>|
-<strong><a href="ancNC/README.md">anchoveta Norte-Centro</a></strong>|
-<strong><a href="ancSur/README.md">anchoveta Sur </a></strong>|
+
+<strong><a href="README.md">Inicio</a></strong>\|
+<strong><a href="ancNC/README.md">anchoveta Norte-Centro</a></strong>\| <strong><a href="ancSur/README.md">anchoveta Sur </a></strong>\| 
 <strong><a href="jur/README.md">jurel</a></strong>
+
 </p>
 
+Evaluación poblacional del stock peruano del jurel y Perspectivas de explotación para el 2023
 
-Evaluación poblacional del stock peruano del jurel y
-Perspectivas de explotación para el 2023
 ==========================================================
 
-
-- [ediaz@imarpe.gob.pe](https://github.com/erichdiaz)
-- [oquispe@imarpe.gob.pe](https://github.com/qselmer)
-- [sgalarza@imarpe.gob.pe](https://github.com/CriscelyLP)
-- [pmarin@imarpe.gob.pe](https://github.com/erichdiaz)
+-   [ediaz\@imarpe.gob.pe](https://github.com/erichdiaz)
+-   [oquispe\@imarpe.gob.pe](https://github.com/qselmer)
+-   [sgalarza\@imarpe.gob.pe](https://github.com/CriscelyLP)
+-   [pmarin\@imarpe.gob.pe](https://github.com/erichdiaz)
