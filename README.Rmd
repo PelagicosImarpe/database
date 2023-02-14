@@ -1,0 +1,79 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+```{r, setup, include = FALSE}
+knitr::opts_knit$set(root.dir = 'J:/.database/pub')
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  tidy=TRUE,
+  comment = "#>")
+```
+
+<p align="left">
+<strong><a href="README.md">Inicio</a></strong>|
+<strong><a href="ancNC/README.md">anchoveta Norte-Centro</a></strong>|
+<strong><a href="ancSur/README.md">anchoveta Sur </a></strong>|
+<strong><a href="jur/README.md">jurel</a></strong>
+</p>
+
+<p>
+<img     style="float: left;" alt="" src="imarpe.png" width=30% height=30% hspace="0" />
+
+<img     style="float: right;" alt="" src="jurel.png" width=20% height=20% hspace="205" />
+</p>
+
+
+Evaluación poblacional del stock peruano del jurel y
+Perspectivas de explotación para el 2023
+==========================================================
+
+Repositorio para el modelo del stock peruano del jurel. Los modelos progresivos se 
+pueden observar en [Modelos para la evaluación y perspectivas para 2023](config/README.md).
+La evaluación se realiza utilizando el modelo de evaluación del jurel (Joint Jack Mackerel, JJM), desarrollado en el marco de las reuniones del Comité Científico del Organismo Regional para el Ordenamiento de las Pesquerías del Pacífico Sur (CC de la OROP-PS). El repositorio esta organizado en las siguientes carpetas:
+
+## R
+El directorio contiene archivos e instructivos en **(R)** para la evaluación del jurel y perspectivas de explotación. Una ayuda de la presente evaluación puede encontrarse en
+[R para la evaluación y perspectivas para 2023](R/README.md) 
+
+## Config
+El directorio contiene archivos de control o configuración **(ctl)**. Una ayuda para los 
+encabezados y rótulos del archivo de configuración puede encontrarlo [aquí](config/config.md) 
+
+## Input
+El directorio contiene archivos de entrada **(dat)**. Una ayuda para los 
+encabezados y rótulos del archivo de entrada puede encontrarlo [aquí](input/input.md) 
+
+## Results
+El directorio contiene archivos de salida del modelo JJM para la evaluación de jurel: 
+_ADMB Correlation_, _ADMB Point Estimates_, _ADMB Report_, _Archivo STD_, _Archivo YLD_, _Document Adobe Acrobate_. (results/results.md). Adicionalmente, el directorio contiene el subdirectorio _figures_.Una ayuda para los encabezados y rótulos de los archivos de salida
+puede encontrarlo [aquí](results/results.md) 
+
+## Data 
+El directorio contiene archivos para la construcción de los inputs y plantillas JJM para la evaluación poblacional del stock peruano del jurel
+
+## Risk tables
+El directorio almacena la tabla de riesgo para las perspectivas de explotación al 2023.
+
+## Src
+El directorio contiene las aplicaciones ejecutables para el modelo **JJM**
+
+## Arc
+El directorio almacena los resultados anteriores para las evaluaciones del stock peruano
+del jurel, con la misma estructura del proyecto.
+
+## Hist retro
+El directorio almacena los resultados anteriores e información histórica para el stock peruano del jurel 
+
+## Docs
+Contiene los documentos y/o reportes presentados para la evaluación poblacional del stock peruano del jurel y perspectivas de explotación. Puede visualizar los reportes en [Listado de docs](docs/README.md) 
+
+## Colaboradores
+
+- [ediaz@imarpe.gob.pe](https://github.com/erichdiaz)
+- [transzonales@imarpe.gob.pe](https://github.com/CriscelyLP)
+- [oquispe@imarpe.gob.pe](https://github.com/qselmer)
+- [sgalarza@imarpe.gob.pe](https://github.com/CriscelyLP)
+- [pmarin@imarpe.gob.pe](https://github.com/erichdiaz)
